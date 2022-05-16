@@ -1,0 +1,3 @@
+[target.$target]
+linker = "$linker"
+rustflags = ["-C", "link-args=--sysroot=$here/my-sysroot/$target"]

@@ -1,0 +1,13 @@
+[package]
+name = "pluto-radar"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+industrial-io = "0.5"
+clap = "2.33"
+libiio-sys = "0.3"
+thiserror = "1.0"
+nix = "0.16"
