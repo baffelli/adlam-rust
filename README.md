@@ -1,6 +1,6 @@
-## Cross-Compiling Rust on ADLAM-PLUTO
+## Cross-Compiling Rust on ADALM-PLUTO
 
-This simple project shows how to cross-compile rust projects on the ADLAM-PLUTO SDR
+This simple project shows how to cross-compile rust projects on the ADALM-PLUTO SDR
 
 ## Setting up
 
@@ -9,7 +9,7 @@ This simple project shows how to cross-compile rust projects on the ADLAM-PLUTO 
     ```
     rustup target add arm-unknown-linux-gnueabihf
     ```
-3. Download the *sysroot* distribution for your ADLAM FW version:
+3. Download the *sysroot* distribution for your ADALM FW version:
     ```
     wget https://github.com/analogdevicesinc/plutosdr-fw/releases/download/v0.32/sysroot-v0.32.tar.gz
     ```
